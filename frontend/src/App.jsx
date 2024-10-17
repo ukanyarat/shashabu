@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
+import './App.css';
 //pages
 import IndexLogin from './pages/index';  
 import SelectItem from './pages/select';  
@@ -13,6 +13,11 @@ import HistoryOrders from './pages/historyOrders';
 import RegisterEmployee from './pages/regis_register';
 
 import QRcode from './pages/cus_qrCode';
+import ThankYou from './pages/cus_thankYou';
+import CusPayment from './pages/cus_payment';
+
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 function App() {
     return (
@@ -30,6 +35,8 @@ function App() {
                 <Route path="/registerEmployee" element={<RegisterEmployee />} />
 
                 <Route path="/qrCode" element={<QRcode />} />
+                <Route path="/thankYou" element={<ThankYou />} />
+                <Route path="/cusPayment" element={<CusPayment />} />
             </Routes>
         </Router>
     );

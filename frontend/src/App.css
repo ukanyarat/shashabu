@@ -1,10 +1,16 @@
+@font-face {
+  font-family: 'CustomFont';
+  src: url("../public/sriracha-regular/SrirachaRegular/SrirachaRegular.ttf") format('truetype');
+}
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'CustomFont', sans-serif;
 }
-@font-face {
-  font-family: 'CustomFont'; /* ชื่อที่คุณต้องการใช้สำหรับฟอนต์ */
-  src: url('../public/sriracha-regular/Sriracha Regular/Sriracha-Regular.ttf') format('truetype'); /* พาธไปยังฟอนต์ */
+
+body {
+  font-family: 'CustomFont', sans-serif;
 }

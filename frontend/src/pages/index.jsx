@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 //css
-import { Shashabu, DivAndBg, LogoImage } from './css/global_css';
+import { Shashabu, DivAndBg, LogoImage,ButtonSubmit } from './css/global_css';
 import { DivBg,P,Input,Button } from './css/index_css';    
 export default function IndexLogin() {
     const navigate = useNavigate();
@@ -16,20 +16,20 @@ export default function IndexLogin() {
         <DivAndBg>
             <DivBg>
             <LogoImage src="./public/img/logo.png" />
-                <Shashabu>shashabu</Shashabu>
+                <Shashabu style={{marginTop : '-30px'}}>shashabu</Shashabu>
                 <div >
-                    <P>ลงชื่อเข้าใช้งาน</P>
+                    <P style={{margin : '-20px 0px 10px 0px'}}>ลงชื่อเข้าใช้งาน</P>
                 </div>
                 <div>
-                    <i className="fa-solid fa-user"></i>
+                    <i className="fa-solid fa-user" style={{ margin: '10px',fontSize : '30px'}}></i>
                     <Input type="text" placeholder="ชื่อผู้ใช้" />
                 </div>
                 <div>
-                    <i className="fa-solid fa-lock"></i>
+                    <i className="fa-solid fa-lock" style={{ margin: '10px',fontSize : '30px'}}></i>
                     <Input type="password" placeholder="รหัสผ่าน" />
                 </div>
                 <div>
-                    <Button onClick={login}>เข้าสู่ระบบ</Button>
+                    <ButtonSubmit onClick={login}>เข้าสู่ระบบ</ButtonSubmit>
                 </div>
             </DivBg>
         </DivAndBg>

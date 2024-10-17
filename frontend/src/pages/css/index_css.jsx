@@ -1,7 +1,11 @@
 import styled from "styled-components";
+
+
+
+
 export const DivBg = styled.section`
     background-color: #FFDFDF;
-    width: 500px;
+    width: 550px;
     margin: 40px auto;
     text-align: center;
     color: black;
@@ -15,7 +19,7 @@ export const P = styled.p`
     background-color: #ffcccc;
     color: red;
     padding: 15px;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     text-shadow: 
         -2px -2px 0 white,  
@@ -29,8 +33,7 @@ export const Input = styled.input`
     background-color: white;
     margin: 5px;
     padding: 6px;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 18px;
 `
 export const Button = styled.button`    
     background-color: #4CAF50; /* Green */

@@ -15,4 +15,15 @@ npm i styled-components   ---css
 npm install react-router-dom
 npm install --save @fortawesome/fontawesome-free
 npm install @fortawesome/fontawesome-free
+npm install qrcode.react
+
+
+
+//css
+import { ButtonBack, DivAndBg, LogoImage, Shashabu,Label,ButtonSubmit } from './css/global_css';
+import { DivBtn,Button } from './css/select_css';
+import { DivBg } from './css/register_css.jsx';
+import { P, Input } from './css/index_css';
+import {Select} from './css/receive.jsx';
+
 
